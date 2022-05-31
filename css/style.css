@@ -164,7 +164,7 @@ main design start
     max-width: 100%;
     height: auto;
     position: absolute;
-    /* transform: rotateY(-15deg); */
+    /* transform:rotateX(10deg); */
     /* top: -74px; comment for checking */
     /* left: -20px; comment for checking */
     top: -70px;
