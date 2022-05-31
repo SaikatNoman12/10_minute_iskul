@@ -239,7 +239,7 @@ main design start
 @media (max-width:767px) {
     .comments {
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 4rem;
+        grid-gap: 5.5rem;
     }
 }
 
@@ -342,55 +342,63 @@ main design start
 .section-four-child .courses {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 30px;
+    grid-gap: 18px;
 }
 
 .courses-card {
     background-color: #fff;
     border-radius: 8px;
-    border: 1px solid black;
+    border: 1px solid #c5c2c2;
     cursor: pointer;
     transition: all .4s;
 }
 
-.courses-card:hover{
+.courses-card:hover {
     transform: translateY(-20px);
 }
 
 .courses-card .courses-img img {
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 8px 8px 0px 0;
 }
 
 .courses-details h3 {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #c5c2c2;
     font-size: 18px;
     padding: 12px;
     font-weight: 600;
 }
 
-.buy-courses{
+.buy-courses {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px;
+    padding: 16px;
 }
 
-.buy-courses p{
+.buy-courses p {
     margin: 0;
     padding: 0;
     display: inline;
     color: black;
     font-size: 20px;
 }
-.buy-courses p a{
+
+.buy-courses p a {
     text-decoration: none;
     color: #27895D;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
 }
 
-
+@media (max-width:767px){
+    .section-four-child .courses {
+        grid-template-columns: repeat(1, 1fr);
+        /* grid-gap: 0; */
+    }
+}
 
 
 /* section-four design end */
