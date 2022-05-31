@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Noto Sans Bengali', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -279,7 +280,7 @@ main design start
 }
 
 .achive-data .achive-data-img img {
-    width: 4rem;
+    width: 5rem;
 }
 
 .achive-data-details h1 {
@@ -292,7 +293,7 @@ main design start
     color: #838383;
     font-weight: 500;
     font-size: 18px;
-    margin-bottom: 12px;    
+    margin-bottom: 12px;
 
 }
 
@@ -302,7 +303,7 @@ main design start
     .achivements {
         padding-left: 0;
         padding-right: 0;
-    }    
+    }
 
     .achivements .achivement-img img {
         display: none;
@@ -314,10 +315,10 @@ main design start
     }
 
     .achive-data {
-        padding:.3rem .3rem 1rem .3rem;
+        padding: .3rem .3rem 1rem .3rem;
         gap: 6px;
     }
-    
+
 
     .achive-data .achive-data-img img {
         width: 3rem;
@@ -327,17 +328,72 @@ main design start
         font-size: 16px;
         font-weight: 600;
     }
-    
+
     .achive-data-details h3 {
         font-size: 14px;
     }
-    
-    
+
+
+}
+
+/* section-three design end */
+
+/* section-four design start */
+.section-four-child .courses {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.courses-card {
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.courses-card:hover{
+    transform: translateY(-20px);
+}
+
+.courses-card .courses-img img {
+    max-width: 100%;
+    border-radius: 8px 8px 0px 0;
+}
+
+.courses-details h3 {
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    padding: 12px;
+    font-weight: 600;
+}
+
+.buy-courses{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.buy-courses p{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    color: black;
+    font-size: 20px;
+}
+.buy-courses p a{
+    text-decoration: none;
+    color: #27895D;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 
 
-/* section-three design end */
+
+/* section-four design end */
 
 /*=============
 main design end 
